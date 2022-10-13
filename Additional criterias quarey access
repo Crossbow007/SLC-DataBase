@@ -1,0 +1,16 @@
+•	Additional criterias - all available at: Query Criteria Examples
+
+o	IN() to select a variety of values (i.e. patients who live in Kingston, Napanee, Ottawa)
+o	NOT IN() - the inverse of IN() (i.e. list only patients who do not live in Kingston, Napanee, Ottawa)
+o	Like - wildcard search
+o	NOT Like - wildcard search - records not matching the wildcard criteria
+•	Summary operations
+
+o	Count, Sum, Max, Min, more.
+o	https://support.microsoft.com/en-us/office/sql-aggregate-functions-a810ee71-c1cd-43d7-9c55-8005f1893be5
+•	Choosing the best data types
+•	Expressions
+o	Math, concatenation, IIf, etc
+o	https://support.microsoft.com/en-us/office/examples-of-expressions-d3901e11-c04e-4649-b40b-8b6ec5aed41f#bm3
+•	User parameters and data types
+
