@@ -1,0 +1,41 @@
+Practice
+
+Use Clinic database for these examples. 	
+
+1.	Display Patient’s first and last name, visit date and reason only where reason for visit is a migraine, influenza, or pertussis only. Use list of values.
+save as W6-Q1
+
+2.	Display all fields from tblBilling table, all records EXCEPT invoice items  PRM712,	REP752, and REP139 only. 	Use list of values and NOT operators.
+Save as W6-Q2
+
+3.	Display patient’s first name, last name, phone, and city.
+Display the message “send info about new clinic” only for patients living in Hartford, otherwise display message “no clinic change”. 
+Hint: Use IIF() 
+Save as W6-Q3
+
+4.	Display InvoiceNum, Invoice Date, and combine InvoiceItemID and Invoice Item in this format (note the spaces and two dashes between fields):
+	REP001 -- Office visit
+Change the column’s heading to Summary      
+Save as W6-Q4
+
+5.	Display a list (all fields) of patients that haven’t had a visit to clinic.    Use the unmatched query wizard.
+ Save as W6-Q5
+
+6.	Create this query using the tblBilling table. Only include results where the invoice is not paid. 
+Use “Total of All Invoice Amounts: “ at the start of the field name to specify the column header.
+Save as W6-Q6
+
+
+
+7.	Create this query that displays the number of invoices and total invoice amount per patient.  Save as W6-Q7.  
+
+
+
+
+
+
+
+
+8.	Create a new table named tblItemExtra that will be in a 1:1 relationship with tblInvoiceItem, that will have a field to store a longer description.  Add two records to this table and create a relationship between the tables.  Remember to set “Indexed: yes (no duplicates)” so access knows this is a one-to-one relationship
+
+9.	Create a query which lists all physicians who have no patients assigned.  Use the unmatched query wizard to find this.  Save it as W6-Q6
